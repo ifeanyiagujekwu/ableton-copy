@@ -21,6 +21,7 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
+
     header ul {
         display: flex;
         justify-content: space-around;
@@ -49,7 +50,8 @@
     }
 
     .first-picture img{
-        width: 70%;
+        width: 80%;
+        height: 50%;
         display: block;
         margin: auto;
         positions: relative;
@@ -65,6 +67,49 @@
         transform: translate(-50%, -50%);
         color: #ff764d;
       }
+
+    .writing1 {
+        width: 40%;
+        margin: 100px auto;
+    }
+
+    .after-writing1 {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+    }
+
+    .after-writing1 img:nth-child(1){
+        width: 30%;
+        z-index: 2;
+        position: absolute;
+        left: 350px;
+        top: 70px;
+    }
+
+    .after-writing1 img:nth-child(2){
+        width: 30%;
+        background-color: #fbffa7;
+        padding: 15% 10%;
+        z-index: 1;
+        position: relative;
+    }
+
+    .writing2{
+        width: 50%;
+        margin: 100px auto;
+    }
+
+    .under-writing2 img{
+        width: 50%;
+        display: block;
+        margin: 100px auto;
+    }
+
+    .writing3{
+        width: 50%;
+        margin: 100px auto;
+    }
 
 
 
