@@ -111,6 +111,44 @@
         margin: 100px auto;
     }
 
+    .under-writing3 {
+        width: 70%;
+        background-color: #b6ffc0;
+        position: relative;
+    }
+    .under-writing3 img{
+        width: 50%;
+        padding: 50px;
+        position: relative;
+        z-index: 1;
+    }
 
+    .under-writing3 img:nth-child(3){
+        position: absolute;
+        z-index: 2;
+        left: 600px;
+        top: 70px;
+        height: 70%;
+        width: 50%;
+    }
+
+    .writing4{
+        width: 50%;
+        margin: 100px auto;
+    }
+
+    .under-writing4 img{
+        width: 80%;
+        display: block;
+        margin: 100px auto;
+        
+    }
+
+    .writing5{
+        width: 50%;
+        margin: 100px auto;
+    }
+
+    
 
 }
