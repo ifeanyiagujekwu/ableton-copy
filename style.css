@@ -149,6 +149,46 @@
         margin: 100px auto;
     }
 
-    
+    .under-writing5 {
+        position: relative;
+        background-color: #d5b3ff;
+        margin: 100px auto;
+        width: 600px;
+        height: 600px;  
+        padding: 50px;
+    }
+
+    .under-writing5 img{
+       
+        width: 70%;
+    }
+
+    .under-writing5 img:nth-child(1){
+        position: relative;
+        top: 100px;
+        right: 150px;
+    }
+
+    .under-writing5 img:nth-child(2){
+        position: relative;
+        bottom: 300px;
+        left: 400px;
+    }
+
+    .writing6{
+        width: 50%;
+        margin: 100px auto;
+    }
+
+    .under-writing6 img{
+        width: 50%;
+    }
+
+    .under-writing6 {
+        display: flex;
+        width: 70%;
+        justify-itens: center;
+    }
+
 
 }
