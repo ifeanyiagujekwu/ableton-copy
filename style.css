@@ -180,15 +180,56 @@
         margin: 100px auto;
     }
 
-    .under-writing6 img{
-        width: 50%;
-    }
-
     .under-writing6 {
-        display: flex;
-        width: 70%;
-        justify-itens: center;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 0px;
+        margin: auto;
+        width: 90%;
+        background-color: #b1c5ff;
     }
 
+    .under-writing6 img{
+        width: 100%;
+    }
+
+    .under-writing6 .beside-image{
+        width: 70%;
+        text-align: center;
+        margin: auto;
+        font-size: 30px;
+        
+    }
+
+    .under-writing6 .beside-image p{
+        color: #0000ff;
+    }
+    
+    hr{
+        margin: 100px 0px;
+    }
+
+    footer{
+        width: 90%;
+        margin: auto;
+
+    }
+
+    footer .grid{
+        display: grid;
+        grid-template-columns: auto auto 30%;
+        grid-row-gap: 50px;
+    }
+
+    footer h2{
+        font-size: 50px;
+    }
+
+    footer .grid .item1 p{
+        font-size: 20px;
+    }
+
+
+    
 
 }
