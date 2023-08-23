@@ -219,6 +219,7 @@
         display: grid;
         grid-template-columns: auto auto 30%;
         grid-row-gap: 50px;
+        font-size: 20px;
     }
 
     footer h2{
@@ -229,7 +230,17 @@
         font-size: 20px;
     }
 
+    footer .last-footer ul{
+        list-style: none;
+        display: flex;
+        gap: 3rem;
+        align-items: center;
+        margin: 5% 0px;
+    }
 
-    
+    footer .last-footer ul li:nth-child(7){
+
+        margin-inline-start: auto;
+    }
 
 }
